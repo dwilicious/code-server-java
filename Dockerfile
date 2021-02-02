@@ -27,7 +27,6 @@ RUN \
     code-server --install-extension vscjava.vscode-java-test && \
     code-server --install-extension vscjava.vscode-maven && \
     code-server --install-extension vscjava.vscode-java-dependency && \ 
-    code-server --install-extension visualstudioexptteam.vscodeintellicode && \ 
     echo "**** clean up ****" && \
     apt purge --auto-remove -y && \
     apt autoclean -y && \
